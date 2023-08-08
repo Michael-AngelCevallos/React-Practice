@@ -15,6 +15,9 @@ import React from "react";
 
 // Step 1 - create JSX
 
-const page = (
-    <div></div>
+const page = ( // represents whole page
+    <div>
+        <h1>My Website in React</h1>
+        <h3> Reasons I like React</h3>
+    </div>
 )
