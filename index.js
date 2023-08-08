@@ -1,9 +1,10 @@
-import { createRoot } from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom";
 
-// Clear the existing HTML content
-document.body.innerHTML = '<div id="app"></div>';
 
-// Render your React component instead
-const root = createRoot(document.getElementById('app'));
-root.render(<h1>Hello, world</h1>);
+
+// ReactDOM.render allows us to implement HTML code within our JS file
+ReactDOM.render(<h1>Hello, Everyone!</h1>, document.getElementById("#root"));
+
+
 
