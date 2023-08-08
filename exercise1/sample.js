@@ -19,5 +19,11 @@ const page = ( // represents whole page
     <div>
         <h1>My Website in React</h1>
         <h3> Reasons I like React</h3>
+        <ol>
+            <li>It's Composoable</li>
+            <li>It's Declaritive</li>
+            <li>It's a Very Saught After Skill for employment</li>
+            <li>Actively Maintained</li>
+        </ol>
     </div>
 )
