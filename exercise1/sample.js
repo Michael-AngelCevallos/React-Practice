@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+
 
 /**
  * Challenge: find out what happens when we try to append JSX
@@ -12,3 +12,9 @@ import ReactDOM from "react-dom";
  * 4. See if you can explain what actually shows up in the broswer
  *
  */
+
+// Step 1 - create JSX
+
+const page = (
+    <div></div>
+)
