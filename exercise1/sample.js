@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 
 
 /**
@@ -27,3 +28,6 @@ const page = ( // represents whole page
         </ol>
     </div>
 )
+
+ReactDOM.render(page, document.getElementById("root"));
+
